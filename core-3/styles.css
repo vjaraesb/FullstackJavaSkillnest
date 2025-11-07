@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: white;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.fila-amarilla {
+    background-color: #ffc107;
+    /* Amarillo */
+}
+
+.fila-celeste {
+    background-color: #4fc3f7;
+    /* Celeste */
+}
+
+.fila-roja {
+    background-color: #f28b82;
+    /* Rojo suave */
+}
+
+.fila img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #b9f6ca;
+    /* Verde claro */
+    padding: 10px;
+    font-style: italic;
+}

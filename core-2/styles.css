@@ -1,0 +1,40 @@
+.container {
+    width: 950px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+}
+
+.top-nav {
+    height: 20%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+    background-color: #ffcc00;
+}
+
+.side-nav {
+    height: 80%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    left: 75%;
+    background-color: #66ccff;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: #66ccff;
+    margin: 10px;
+}
+
+.main {
+    background-color: deeppink;
+}
+
+.sub-content {
+    height: 200px;
+    width: 210px;
+    
+    background-color: mediumblue;
+}

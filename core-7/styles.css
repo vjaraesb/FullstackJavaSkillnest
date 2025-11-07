@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 15px 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-login input {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+.login {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.add-definition {
+    border: 1px solid #999;
+    padding: 15px;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.add-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.definition-card {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.definition-card h2 {
+    margin:

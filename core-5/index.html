@@ -1,0 +1,97 @@
+<!-- 
+Página de Perfil
+https://learning.skillnest.com/cursos/fundamentos-de-la-web-b2b-banco-chile-java-octubre-2025/assignments/posiciones-pagina-de-perfil-core-24-5/
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Linn Olsen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <header class="navbar">
+        <h1>Perfil</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mi Perfil</a></li>
+                <li><a href="#">Encontrar Conexiones</a></li>
+                <li><button class="logout-btn">Cerrar Sesión</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal -->
+    <main class="container">
+        <!-- Sección de perfil -->
+        <section class="profile-card">
+            <div class="profile-header"></div>
+            <div class="profile-content">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto de perfil" class="profile-img">
+                <h2>Linn Olsen</h2>
+                <p class="location">Bergen, Noruega</p>
+                <p class="job">
+                    Diseñadora de UX/UI | Desarrolladora Frontend | Amante de la naturaleza
+                </p>
+                <p class="bio">
+                    Apasionada por crear experiencias digitales hermosas y funcionales.
+                    Cuando no está codificando, disfruta explorando los fiordos noruegos y
+                    capturando la belleza de la naturaleza en fotografías.
+                </p>
+                <a href="#" class="edit-link">⚙️ Editar Perfil</a>
+            </div>
+        </section>
+
+        <!-- Columna lateral derecha -->
+        <aside class="sidebar">
+            <!-- Solicitudes -->
+            <div class="requests card">
+                <h3>Solicitudes de Conexión (2)</h3>
+                <div class="request">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+                    <span>Kai Schröder</span>
+                    <div class="actions">
+                        <button class="accept">✔</button>
+                        <button class="decline">✖</button>
+                    </div>
+                </div>
+                <div class="request">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="">
+                    <span>Amira El-Masry</span>
+                    <div class="actions">
+                        <button class="accept">✔</button>
+                        <button class="decline">✖</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conexiones -->
+            <div class="connections card">
+                <h3>Tus Conexiones (500+)</h3>
+                <ul>
+                    <li><img src="https://randomuser.me/api/portraits/men/60.jpg"> Adrien Desplatz</li>
+                    <li><img src="https://randomuser.me/api/portraits/men/61.jpg"> Aarav Patel</li>
+                    <li><img src="https://randomuser.me/api/portraits/women/45.jpg"> Lina Kovačević</li>
+                    <li><img src="https://randomuser.me/api/portraits/men/50.jpg"> Mateo Hernández</li>
+                    <li><img src="https://randomuser.me/api/portraits/women/48.jpg"> Yuna Kim</li>
+                    <li><img src="https://randomuser.me/api/portraits/men/54.jpg"> Liam O'Brien</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Educación -->
+    <section class="education card">
+        <h3>Educación</h3>
+        <p><strong>Coding Dojo - Bootcamp de Desarrollo Full Stack</strong></p>
+        <p>Dic 2019 - Mar 2020</p>
+        <p>Triple cinturón negro en Python, MERN y C#</p>
+    </section>
+</body>
+
+</html>
